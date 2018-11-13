@@ -24,7 +24,7 @@ class SearchPage extends Component {
              const {books} = this.props;
              const evalBooks = searchedBooks.map(searchedBook => {
                books.map(book => {
-                 if (searchedBook.id ===book.id) {
+                 if (searchedBook.id === book.id) {
                    searchedBook = book;
                  }
                  return book;
