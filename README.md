@@ -26,6 +26,9 @@ Once you've found a book you want to add to your library, simply select the gree
 To return to the Library, click the arrow directly to the left of the search bar. 
 
 ### Contributing
-This repository is the starter code for all Udacity students. Therefore, we most likely will not accept pull requests.
+This project was created with React. The [Create React App](https://github.com/facebook/create-react-app) was used to build the project with the Udacity provided [starter code](https://github.com/udacity/reactnd-project-myreads-starter).
 
-For details, check out CONTRIBUTING.md.
+For help to scale and understand the project, the following walk-through was used: https://www.youtube.com/watch?v=i6L2jLHV9j8
+
+Due to the scale of the project, there is contributing help from the patient and kind-hearted Udacity coaches. 
+
