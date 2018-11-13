@@ -18,18 +18,29 @@ class SearchPage extends Component {
     updateSearchedBooks = (query) => {
       if (query) {
         BooksAPI.search(query).then((searchedBooks) => {
-          if (searchedBooks.error) {
-            this.setState({ searchedBooks: [] });
-          } else {
-            this.setState({ searchedBooks: searchedBooks });
-          }
-        })
-      } else {
-        this.setState({ searchedBooks: [] });
-      }
-    }
+           if (searchedBooks.error) {
+             this.setState({ searchedBooks: [] });
+           } else {
+             const {books} = this.props;
+             const evalBooks = searchedBooks.map(searchedBook => {
+               books.map(book => {
+                 if (searchedBook.id ===book.id) {
+                   searchedBook = book;
+                 }
+                 return book;
+               });
+               return searchedBook;
+             })
+             this.setState({ searchedBooks: evalBooks });
+           }
+         })
+       } else {
+         this.setState({ searchedBooks: [] });
+       }
+     }
 
-    render () { 
+
+    render () {
       return (
         <div className="search-books">
           <div className="search-books-bar">
