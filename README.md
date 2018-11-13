@@ -24,3 +24,8 @@ You can also search for books to add to your library. To reach the search page, 
 Once you've found a book you want to add to your library, simply select the green arrow on the bottom right hand corner of each book to assign it to a shelf in your library. If a book is already assigned to a shelf in your library, it will highlight the shelf it is assigned to in the selector by default. 
 
 To return to the Library, click the arrow directly to the left of the search bar. 
+
+### Contributing
+This repository is the starter code for all Udacity students. Therefore, we most likely will not accept pull requests.
+
+For details, check out CONTRIBUTING.md.
