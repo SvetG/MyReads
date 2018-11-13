@@ -28,7 +28,7 @@ To return to the Library, click the arrow directly to the left of the search bar
 ### Contributing
 This project was created with React. The [Create React App](https://github.com/facebook/create-react-app) was used to build the project with the Udacity provided [starter code](https://github.com/udacity/reactnd-project-myreads-starter).
 
-For help to scale and understand the project, the following walk-through was used: https://www.youtube.com/watch?v=i6L2jLHV9j8
+For help to scale and understand the project, the following walk-through was used:<br> https://www.youtube.com/watch?v=i6L2jLHV9j8
 
 Due to the scale of the project, there is contributing help from the patient and kind-hearted Udacity coaches. 
 
